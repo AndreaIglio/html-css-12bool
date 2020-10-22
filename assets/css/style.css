@@ -6,12 +6,24 @@
   position: relative;
 }
 
+[class*="col-"] .nested {
+  background-color: red;
+  height: 190px;
+  border: 1px solid white;
+  position: relative;
+}
+
 [class*="col-"] > p {
   position: absolute;
   top:50%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
+.padding_5 {
+  padding: 5px;
+}
+
 
 
 /* /utility */

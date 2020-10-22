@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 
-.row {
+.container {
   max-width: 1170px;
-  margin: 0 auto;
+  margin: auto;
+}
+
+.row {
+  max-width: 100%;
 }
 
 .row::after {
@@ -122,19 +126,3 @@
 /* /OFFSETS */
 
 /* /COLUMNS */
-
-
-.nested-1 {
-  width: calc((100%/12)*2)
-}
-
-
-
-/* utility class */
-
-.padding_5 {
-  padding: 5px;
-}
-
-
-/* /utility class */
